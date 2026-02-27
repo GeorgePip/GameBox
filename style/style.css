@@ -1,0 +1,171 @@
+body {
+    background: #f8f8f8
+}
+
+.startuso {
+    list-style: none;
+    justify-content: center;
+}
+.startuso li a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: darkcyan;
+    font-style: italic;
+}
+h2 {
+    color:black;
+    font-size: 18x;
+    font-weight: 400;
+}
+.bucky {
+    background-color: #eaeaea;
+}
+.kratko {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.podrobno {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.harakt {
+    list-style:square;
+}
+.harakt li {
+    color: darkviolet;
+    font-size: 15px;
+    font-style:oblique;
+    line-height: 20px;
+    text-align:left;
+}
+
+.name input[type="text"] {
+    width: 300px;
+    height: 35px;
+}
+
+.startuso a:hover {
+    color:lightcoral;
+}
+
+.cuphead {
+    display: flex;
+    align-items: center;
+    padding: 15x 40px;
+    background-color:#bababa;
+}
+
+.endos {
+    text-align: center;
+    padding: 20px;
+    background-color:#9aeaaa
+}
+
+.mail {
+    border: 1px gray;
+    transition: 1s;
+}
+
+.mail:focus {
+    background-color: #e0f0ff;
+    color: rgb(246, 178, 122);
+    border: 1px rgb(131, 131, 253);
+    outline: none;
+}
+
+.name, .tema {
+    text-transform: capitalize;
+}
+
+.tech-table {
+    width: 30%;
+    border-collapse: collapse;
+}
+
+.tech-table td {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+}
+
+.tech-table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.tech-table tr:hover {
+    background-color: #e0f0ff;
+}
+
+.gameimg {
+    display: block;
+    border: 2px solid orange;
+    box-sizing: border-box;
+    transition: border 0.5s;
+}
+
+.imagu:hover .gameimg {
+    border: 0;
+}
+
+.kratko::first-letter, .podrobno::first-letter, .podronew::first-letter {
+    font-family: "Georgia", serif;
+    font-size: 2em;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.cuphead {
+    height: 250px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.surfy {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    height: 1050px
+}
+
+.surfy a:hover {
+    color: red
+}
+
+.container { 
+    min-height: 100%; 
+}
+
+.endos {
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+    }
+    
+* { 
+    margin: 0; padding: 0; 
+}
+
+html, body { 
+    height: 100%; 
+}
+
+.cuphead {
+    height: 200px;
+}
+
+.gamecont {
+    height: 1000px;
+}
