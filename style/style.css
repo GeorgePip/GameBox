@@ -294,3 +294,54 @@ h2 {
 .tech-table tr:nth-child(odd) {
     background:#f3f4f6;
 }
+
+.buybutton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    background-color: #22c55e;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.buybutton:hover {
+    background-color: #16a34a;
+}
+
+.notification {
+
+    position: fixed;
+
+    bottom: 30px;
+
+    right: 30px;
+
+    background: #1f2937;
+
+    color: white;
+
+    padding: 15px 25px;
+
+    border-radius: 8px;
+
+    opacity: 0;
+
+    transform: translateY(20px);
+
+    transition: 0.4s;
+
+}
+
+
+
+.notification.show {
+
+    opacity: 1;
+
+    transform: translateY(0);
+
+}
